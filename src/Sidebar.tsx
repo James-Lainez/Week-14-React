@@ -4,7 +4,7 @@ export default function Sidebar() {
     return (
       <div className="bg-info p-3 border-bottom flex-column">
         <form>
-           <input type="text"/>
+           <input name="text box" type="text"/>
            <div className="text-center pt-2"><SideButtons/></div>
         </form>
        </div>
